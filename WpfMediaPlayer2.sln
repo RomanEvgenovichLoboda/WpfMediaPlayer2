@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32407.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfMediaPlayer2", "WpfMediaPlayer2\WpfMediaPlayer2.csproj", "{F9E53906-0848-412F-B563-5FA37CE2BF55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9E53906-0848-412F-B563-5FA37CE2BF55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9E53906-0848-412F-B563-5FA37CE2BF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9E53906-0848-412F-B563-5FA37CE2BF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9E53906-0848-412F-B563-5FA37CE2BF55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F473B23B-7C9D-4E7E-9146-A7EF8F823410}
+	EndGlobalSection
+EndGlobal
