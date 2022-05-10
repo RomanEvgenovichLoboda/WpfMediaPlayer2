@@ -72,7 +72,7 @@
                 <Label Grid.Row="2" Content="-3:35" Margin="240,10,0,0" FontSize="12" Foreground="#959595"></Label>
                 <Slider HorizontalAlignment="Left" Margin="50,10,0,0" Grid.Row="2" VerticalAlignment="Stretch"  Height="40" Width="200"/>
                 <Slider HorizontalAlignment="Left" Margin="335,10,0,0" Grid.Row="2" VerticalAlignment="Stretch"  Height="40" Width="120" />
-                <Image HorizontalAlignment="Left" Margin="300,0,0,0" Source ="icons8_speaker1_32.png" Height="38" Grid.Row="2" VerticalAlignment="Top" Width="33"/>
+                <Image HorizontalAlignment="Left" Margin="310,0,0,0" Source ="icons8_speaker1_32.png" Height="20" Grid.Row="2" VerticalAlignment="Center"  Width="20"/>
             </Grid>
             <Image Source="nickel.png" Margin="5,10,10,5" Stretch="Fill"/>
 
@@ -93,27 +93,8 @@
                         <Label Grid.Row="0" Content="1. Pfotograph" Foreground="White" FontSize="17"></Label>
                         <Label Grid.Row="1" Content="   Nickelback - Best of Nickelback Vol. 1" Foreground="#959595" FontSize="12"></Label>
                     </Grid>
-                    <Label Grid.Column="2" Margin="500,15,0,15" Content="44 kHz 320 kbs 4:18" Foreground="#959595" FontSize="12"></Label>
-                </Grid>
-            </ListBoxItem>
-            <ListBoxItem>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition MinWidth="50"></ColumnDefinition>
-                        <ColumnDefinition MinWidth="200"></ColumnDefinition>
-                        <ColumnDefinition MinWidth="200"></ColumnDefinition>
-                        <ColumnDefinition MinWidth="200"></ColumnDefinition>
-                        <ColumnDefinition MinWidth="130"></ColumnDefinition>
-                    </Grid.ColumnDefinitions>
-                    <Grid Grid.Column="1">
-                        <Grid.RowDefinitions>
-                            <RowDefinition></RowDefinition>
-                            <RowDefinition></RowDefinition>
-                        </Grid.RowDefinitions>
-                        <Label Grid.Row="0" Content="2. How You Remind Me" Foreground="White" FontSize="17"></Label>
-                        <Label Grid.Row="1" Content="   Nickelback - Best of Nickelback Vol. 1" Foreground="#959595" FontSize="12"></Label>
-                    </Grid>
-                    <Label Grid.Column="4" Padding="90,20,0,10" Content="44 kHz 320 kbs 3:43" Foreground="#959595" FontSize="12"></Label>
+                    <Label Grid.Column="2" Margin="490,15,0,15" Content="44 kHz 320 kbs" Foreground="#959595" FontSize="12"></Label>
+                    <Label Grid.Column="2" Margin="580,15,0,15" Content="4:18" Foreground="White"  FontSize="12"></Label>
                 </Grid>
             </ListBoxItem>
             <ListBoxItem>
@@ -128,10 +109,31 @@
                             <RowDefinition></RowDefinition>
                             <RowDefinition></RowDefinition>
                         </Grid.RowDefinitions>
+                        <Label Grid.Row="0" Content="2. How You Remind Me" Foreground="White" FontSize="17"></Label>
+                        <Label Grid.Row="1" Content="   Nickelback - Best of Nickelback Vol. 1" Foreground="#959595" FontSize="12"></Label>
+                    </Grid>
+                    <Label Grid.Column="2" Margin="490,15,0,15" Content="44 kHz 320 kbs"  Foreground="#959595" FontSize="12"></Label>
+                    <Label Grid.Column="2" Margin="580,15,0,15" Content="3:43" Foreground="White"  FontSize="12"></Label>
+                </Grid>
+            </ListBoxItem>
+            <ListBoxItem>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50"></ColumnDefinition>
+                        <ColumnDefinition Width="218*" ></ColumnDefinition>
+                        <ColumnDefinition Width="533*" ></ColumnDefinition>
+                        <ColumnDefinition Width="73*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="1" Margin="0.4,0,0,-0.4">
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
                         <Label Grid.Row="0" Content="3. Burn It To The Ground" Foreground="White" FontSize="17"></Label>
                         <Label Grid.Row="1" Content="   Nickelback - Best of Nickelback Vol. 1" Foreground="#959595" FontSize="12"></Label>
                     </Grid>
-                    <Label Grid.Column="2" Padding="500,15,0,15" Content="44 kHz 320 kbs 3:31" Foreground="#959595" FontSize="12"></Label>
+                    <Label Grid.Column="2" Margin="490,15,0,15" Content="44 kHz 320 kbs"  Foreground="#959595" FontSize="12"></Label>
+                    <Label Grid.Column="2" Margin="580,15,0,15" Content="3:31" Foreground="White"  FontSize="12"></Label>
                 </Grid>
             </ListBoxItem>
             <ListBoxItem>
@@ -150,7 +152,8 @@
                         <Label Grid.Row="0" Content="4. Rockstar" Foreground="White" FontSize="17"></Label>
                         <Label Grid.Row="1" Content="   Nickelback - Best of Nickelback Vol. 1" Foreground="#959595" FontSize="12"></Label>
                     </Grid>
-                    <Label Grid.Column="2" Padding="500,15,0,15" Content="44 kHz 320 kbs 4:17" Foreground="#959595" FontSize="12"></Label>
+                    <Label Grid.Column="2" Margin="490,15,0,15" Content="44 kHz 320 kbs"  Foreground="#959595" FontSize="12"></Label>
+                    <Label Grid.Column="2" Margin="580,15,0,15" Content="4:17" Foreground="White"  FontSize="12"></Label>
                 </Grid>
             </ListBoxItem>
             <ListBoxItem>
@@ -168,7 +171,8 @@
                         <Label Grid.Row="0" Content="5. Savin' Me" Foreground="White" FontSize="17"></Label>
                         <Label Grid.Row="1" Content="   Nickelback - Best of Nickelback Vol. 1" Foreground="#959595" FontSize="12"></Label>
                     </Grid>
-                    <Label Grid.Column="2" Padding="500,15,0,15" Content="44 kHz 320 kbs 3:39" Foreground="#959595" FontSize="12"></Label>
+                    <Label Grid.Column="2" Margin="490,15,5,15" Content="44 kHz 320 kbs"  Foreground="#959595" FontSize="12"></Label>
+                    <Label Grid.Column="2" Margin="580,15,0,15" Content="3:39" Foreground="White"  FontSize="12"></Label>
                 </Grid>
             </ListBoxItem>
             <ListBoxItem>
@@ -186,7 +190,8 @@
                         <Label Grid.Row="0" Content="6. Figured You Out" Foreground="White" FontSize="17"></Label>
                         <Label Grid.Row="1" Content="   Nickelback - Best of Nickelback Vol. 1" Foreground="#959595" FontSize="12"></Label>
                     </Grid>
-                    <Label Grid.Column="2" Padding="500,15,0,15" Content="44 kHz 320 kbs 4:50" Foreground="#959595" FontSize="12"></Label>
+                    <Label Grid.Column="2" Margin="490,15,5,15" Content="44 kHz 320 kbs"  Foreground="#959595" FontSize="12"></Label>
+                    <Label Grid.Column="2" Margin="580,15,5,15" Content="3:50" Foreground="White"  FontSize="12"></Label>
                 </Grid>
             </ListBoxItem>
         </ListBox>
