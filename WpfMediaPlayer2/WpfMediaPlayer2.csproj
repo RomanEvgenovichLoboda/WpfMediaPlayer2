@@ -170,5 +170,11 @@
   <ItemGroup>
     <Resource Include="icons8_pause_squared_32.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nickel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="nickel.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

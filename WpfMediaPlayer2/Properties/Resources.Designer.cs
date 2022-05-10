@@ -163,6 +163,16 @@ namespace WpfMediaPlayer2.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap nickel {
+            get {
+                object obj = ResourceManager.GetObject("nickel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Nickelback___Here_And_Now {
             get {
                 object obj = ResourceManager.GetObject("Nickelback___Here_And_Now", resourceCulture);
