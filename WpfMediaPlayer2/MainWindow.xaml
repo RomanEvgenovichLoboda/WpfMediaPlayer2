@@ -31,7 +31,7 @@
                     <RowDefinition Height="50*"></RowDefinition>
                     <RowDefinition Height="45*"></RowDefinition>
                 </Grid.RowDefinitions>
-                <Grid Grid.Row="1" Margin="0,4,0,0.4">
+                <Grid Grid.Row="1">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition></ColumnDefinition>
                         <ColumnDefinition></ColumnDefinition>
@@ -68,12 +68,23 @@
                     </Button>
 
                 </Grid>
-                <Label Grid.Row="2" Content="0:41" Margin="15,10,0,0" FontSize="12" Foreground="#959595"></Label>
-                <Label Grid.Row="2" Content="-3:35" Margin="240,10,0,0" FontSize="12" Foreground="#959595"></Label>
-                <Slider HorizontalAlignment="Left" Margin="50,10,0,0" Grid.Row="2" VerticalAlignment="Stretch"  Height="40" Width="200"/>
-                <Slider HorizontalAlignment="Left" Margin="335,10,0,0" Grid.Row="2" VerticalAlignment="Stretch"  Height="40" Width="120" />
-                <Image HorizontalAlignment="Left" Margin="310,0,0,0" Source ="icons8_speaker1_32.png" Height="20" Grid.Row="2" VerticalAlignment="Center"  Width="20"/>
-            </Grid>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50*"></ColumnDefinition>
+                        <ColumnDefinition Width="200*"></ColumnDefinition>
+                        <ColumnDefinition Width="40*"></ColumnDefinition>
+                        <ColumnDefinition Width="40*"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                       
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" HorizontalAlignment="Right" Content="0:41" FontSize="12" Foreground="#959595"></Label>
+                    <Label Grid.Column="2" Content="-3:35" FontSize="12" Foreground="#959595"></Label>
+                    <Slider HorizontalAlignment="Stretch" Grid.Column="1" VerticalAlignment="Stretch"  Height="40" Width="200"/>
+                    <Slider HorizontalAlignment="Stretch"  Grid.Column="4" VerticalAlignment="Stretch"  Height="40" Width="110" />
+                    <Image HorizontalAlignment="Stretch" Source ="icons8_speaker1_32.png"  Grid.Column="3" VerticalAlignment="Top"  Width="20"/>
+
+                </Grid>
+                </Grid>
             <Image Source="nickel.png" Margin="5,10,10,5" Stretch="Fill"/>
 
         </Grid>
@@ -93,8 +104,19 @@
                         <Label Grid.Row="0" Content="1. Pfotograph" Foreground="White" FontSize="17"></Label>
                         <Label Grid.Row="1" Content="   Nickelback - Best of Nickelback Vol. 1" Foreground="#959595" FontSize="12"></Label>
                     </Grid>
-                    <Label Grid.Column="2" Margin="490,15,0,15" Content="44 kHz 320 kbs" Foreground="#959595" FontSize="12"></Label>
-                    <Label Grid.Column="2" Margin="580,15,0,15" Content="4:18" Foreground="White"  FontSize="12"></Label>
+
+
+                    <Grid Grid.Column="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"></ColumnDefinition>
+                            <ColumnDefinition Width="290"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Grid.Column="2" HorizontalAlignment="Right" Margin="0,20" Content="44 kHz 320 kbs" Foreground="#959595" FontSize="12"></Label>
+                        <Label Grid.Column="3" HorizontalAlignment="Stretch" Margin="0,20" Content="4:18" Foreground="White"  FontSize="12"></Label>
+                    </Grid>
                 </Grid>
             </ListBoxItem>
             <ListBoxItem>
@@ -124,7 +146,7 @@
                         <ColumnDefinition Width="533*" ></ColumnDefinition>
                         <ColumnDefinition Width="73*"/>
                     </Grid.ColumnDefinitions>
-                    <Grid Grid.Column="1" Margin="0.4,0,0,-0.4">
+                    <Grid Grid.Column="1" >
                         <Grid.RowDefinitions>
                             <RowDefinition></RowDefinition>
                             <RowDefinition></RowDefinition>
